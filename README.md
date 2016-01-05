@@ -1,1 +1,1 @@
-# makichan-bot
+# muse-bot
