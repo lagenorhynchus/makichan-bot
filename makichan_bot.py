@@ -1,4 +1,15 @@
-class MakiBot(object):
+from random import choice
+
+from errbot import BotPlugin, botcmd
+
+
+class MakiBot(BotPlugin):
     """docstring for MakiBot"""
-    def __init__(self, arg):
-        self.arg = arg
+    @botcmd
+    def hello(self, msg, args):
+        return choice([
+            'nanisore, imiwakannai.',
+            'mendonahito.',
+            'okotowarishimasu.',
+            'vuee.'
+        ])
