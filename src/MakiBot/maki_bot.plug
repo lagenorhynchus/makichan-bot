@@ -1,0 +1,9 @@
+[Core]
+Name = MakiBot
+Module = maki_bot
+
+[Python]
+Version = 3
+
+[Documentation]
+Description = Maki-chan chatbot plugin
