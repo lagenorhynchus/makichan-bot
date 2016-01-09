@@ -8,8 +8,8 @@ class MakiBot(BotPlugin):
     @botcmd
     def hello(self, msg, args):
         return choice([
-            'nanisore, imiwakannai.',
-            'mendonahito.',
-            'okotowarishimasu.',
-            'vuee.'
+            '何それイミワカンナイ!',
+            'ヴェェ!?',
+            'お断りします!',
+            '从廿_廿从'
         ])
